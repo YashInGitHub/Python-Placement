@@ -1,0 +1,52 @@
+Q. What and why is programming ?
+A. Making your computer understand ur instructions to carry out some tasks
+
+Types of programming languages
+1. Functional / Structural Programming language
+2. Procedural programming language - C 
+	-This languages executes procedures(functions)
+3. OOP language
+4. Scripting language
+5. Logic programming lang
+
+Python multi paradiagm language - Both procedural and OOP language
+
+Eg: C/C++, Java, Python, GoLang, Javascript, Ruby, PERL, R, Go, PHP
+
+Complier: Scans the entire code first to check for errors
+Interpreter: Executes the code line by line
+Algorithm: Set of instructions that is used to solve a problem
+Syntax: Rules used to communicate with the computer
+
+Operation/Expression: a + b
+a, b: Operands
++: Operator
+
+Types of Operators:
+1. Unary Operator: One operand. Eg: ++, --
+2. Binary Operator: Two operands Eg: +, -, *, /, %
+3. Ternary Operator: Three operads Eg: (a>b)?a:b
+
+2. Types of Binary Operator:
+Arithematice Operator: To do arithematic operation. Eg: +, -, *, /, %, **, ++, --, //, 
+Relational/Comparision Operator: Eg: <, >, <=, >=, ==
+Logical Operator: Eg: and, or
+Bitwise Operator:
+Assignment Operator: Eg: =
+Identity Operator: Eg: is, is not
+Membership Operator: Eg: in, not in
+
+Datatypes: 
+- Numeric:
+	-int
+	-float
+	-complex number
+- Set: 
+- Sequence:
+	- List
+	- Tuple
+	- Strings
+- Boolean:
+	- True, False
+- Dictionary:
+
