@@ -1,0 +1,85 @@
+1. Write a python program to find the best of 2 test average marks out of 3 test marks accepted from the user.
+2. Develop a python program to convert a binary number to a decimal, octal and hexadecimal numbers using functions.
+3. Define a function F as Fn = Fn - 1 + Fn - 2. Write a python program which accepts a value for N (where N > 0) as input and pass this 
+value to the function. Display suitable error message if the condition for input value is not followed.
+4. Write a python program to find the string similarity between 2 given strings. (give the percentage of match)
+5. Write a python program that accepts a sentence and finds the number of words, digits, uppercase letters and lowercase letter
+6. Produce the pattern
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+
+7. Produce the pattern
+            *
+          * *
+        * * *
+      * * * *
+    * * * * *
+
+8. Produce the pattern
+    * * * * *
+      * * * * 
+        * * *
+          * *
+            *
+9. Produce the pattern
+    * * * * *
+    * * * * 
+    * * *
+    * *
+    *
+
+10. Produce the pattern
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+
+11. Produce the pattern
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+
+12. Produce the pattern
+
+    1 
+    2 2 
+    3 3 3
+    4 4 4 4 
+    5 5 5 5 5
+
+13. Produce the pattern
+
+    * * * * * 
+    *       *
+    *       *
+    *       *
+    * * * * * 
+
+14. Produce the pattern
+
+    * * * * * 
+    * *   * *
+    *   *   *
+    * *   * *
+    * * * * * 
+
+15. Produce the pattern
+
+    1 2 3 4
+    5 6 7 8
+    9 10 11 12
+    13 14 15 16
+
+16. Produce the pattern
+
+    A A A A A
+    A A A A A 
+    A A A A A
+    A A A A A
+    A A A A A
