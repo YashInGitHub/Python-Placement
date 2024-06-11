@@ -83,3 +83,7 @@ value to the function. Display suitable error message if the condition for input
     A A A A A
     A A A A A
     A A A A A
+
+17. WAP to read a string from user and implement the logic to remove the characters which are at the odd number index
+18. WAP to swap 2 numbers using a variable
+19. WAP to swap 2 numbers without using a third variable

@@ -1,0 +1,66 @@
+=> Collections: are used to store multiple values in a single place
+There are 4 types:
+- Lists: []
+- Tuples: ()
+- Set: {}
+- Dictionary: {<key> : <value>}
+
+=> Features under which collections are based:
+___________|_Ordered_|_Changeable_|_Duplicates_| 
+Lists      |   Yes   |    Yes     |     Yes    |
+Tuples     |   Yes   |    No      |     Yes    |
+Set        |   No    |    Yes     |     No     |
+Dictionary |   Yes   |    Yes     |     No     |
+
+-> Lists: values or elements of the same datatype enclosed within "[]"
+
+- Creating a list: 
+    num = [1, 2, 3, 4, 5]
+- Printing a list:
+    print(num) // O/P: [1, 2, 3, 4, 5]
+- Accessing elements: 
+    print(num[1]) //O/P:  2
+- Slicing: 
+    print(num[1 : 4]) // O/P: [2, 3, 4]
+    print(num[-4 : -1]) // O/P: [2, 3, 4]
+- Replacing elements: 
+    num[1] = 7
+- Append: add the element at the end of the list
+    num.append(4)
+- Insert: adds an element at specified position
+    num.insert(6, 2)
+- Extend: adds elements to the end of current list
+    num.extend(num2)
+- pop: removes the element at that index
+    num.pop(2)
+- remove: removes the number of elements specified
+    num.remove(2)
+- clear: clears the elements in list
+    num.clear()
+- del: deletes the list and its elements (del is a keyword)
+    del num
+- sort: sorts the list in ascending order
+    num.sort()
+- index: return the index of an element
+    num.index(1)
+- count: returns the count of the element in the list
+    num.count(2)
+- reverse: reverses the list
+
+- copy: will return a copy of the list
+
+Problems:
+1. Count the number of occurances of a given item in the list
+2. Write a program to count the unique values in a list
+3. Find out the duplicate removal list product using list comprehension
+4. Write a program to extract elements with a frequency greater than k
+5. Write a program to test if list contains elements in the range
+6. Write a program to demonstrate list intersection and union
+7. Write a program to merge 2 sorted lists into a single sorted list
+8. Find the largest sub array sum of a given list
+9. Write a program to partition a list around a given value such that all elements less than the given value come before it 
+and all elements greater than the given value come after it
+10. Find a peak element in a list of integers. (Peak element is an element that is greater than or equal to its neighbours)
+
+
+    

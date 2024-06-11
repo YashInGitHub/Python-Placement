@@ -1,0 +1,42 @@
+=> TUPLES: Elements enclosed within '()'
+
+-> Initializing a Tuple:
+t1 = (10, 20, 30)
+t2 = ('a', 'b', 'c')
+t3 = (True, False)
+
+-> Iterating through the elements in the list:
+for i in t1:
+    print(i)
+
+for i in range(len(t1)):
+    print(t1[i])
+
+i = 0
+while(i < len(t1)):
+    print(t1[i])
+
+-> To make a Tuple changeable we can convert to 'list(tuple)' and then add elements and then convert it back to tuple(list(tuple))
+
+-> Unpacking a tuple: Using variable to extract elements in a tuple
+t = (10, 20, 30)
+(a, *b) = t
+print(a) // prints 10
+print(b) // prints [20, 30] type: list
+
+-> Sorted:
+
+l = [2, 1, 3, 5 ,4]
+l.sort() - sorts the original list itself
+sorted(l) - will return a list of sorted list of l without changing l 
+
+- Parameters in the sorted function: 
+sorted(l, key = <somefunction>, reverse = True/False)
+
+lambda x : x[1] - is an annoymous inline function return x[1] second element of x
+
+zip: To combine 2 lists or tuples 
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+zip combines them to for [[1, 'a'], [2, 'b'], [3, 'c']]
+
