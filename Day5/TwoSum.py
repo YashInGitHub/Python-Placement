@@ -32,5 +32,4 @@ for i in range(n):
     numbers.append(int(input()))
 print(OptimalTwoSum(x, numbers))
 
-print(73 % 5)
 
