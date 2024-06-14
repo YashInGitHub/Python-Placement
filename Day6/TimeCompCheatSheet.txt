@@ -1,0 +1,14 @@
+O(1) - Constant
+O(log n) - 
+O(n) - Linear
+O(nlogn) - Logarithmic
+O(n^2) - Quadratic
+O(2^n) - Exponential
+O(n!) - Factorial 
+
+Cheat Sheet for Time Complexity
+- When your calculation is not dependent on the input size, it is constant time complexity (O(1)) 
+- When the input siez is reduced to half, maybe when iterating, handling recursion, its Logarithmic time complexity (O(logn))
+- When you have a single loop within your algorithm, it is linear complexity (O(n))
+- When you have nested loops within your algorithm, its quadratic time complexity O(n^2)
+- When the growth rate doubles with each addition to the input, it is exponential time complexity (O(2^n))
