@@ -40,3 +40,5 @@ list1 = [1, 2, 3]
 list2 = ['a', 'b', 'c']
 zip combines them to for [[1, 'a'], [2, 'b'], [3, 'c']]
 
+filter(<fn>, <tuple>):  
+reduce(<fn>, <tuple>):

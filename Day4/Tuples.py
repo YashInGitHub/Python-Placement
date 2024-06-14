@@ -130,5 +130,16 @@ point2 = Point(4, 6)
 print(math.sqrt((point2.y - point1.y)**2 + (point2.x - point1.x)**2))
 
 original_tuple = (1, 2, 3, 4, 5)
-filtered_tuple = tuple(filter(lambda x : x % 2 == 0), original_tuple)
+filtered_tuple = tuple(filter(lambda x : x % 2 == 0, original_tuple))
 print(filtered_tuple)
+
+from functools import reduce
+
+def add (x, y):
+    return x + y
+
+original_tuple1 = (1, 2, 3, 4, 5)
+
+result = reduce((add, original_tuple1))
+
+print(result)
