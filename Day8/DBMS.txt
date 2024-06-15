@@ -1,0 +1,66 @@
+DBMS - Data Base Management System Eg. NoSQL
+RDBMS - Relational Data Base Management System Eg. SQL
+
+=> SQL - Structured Query Language
+
+Types of SQL languages:
+-> DDL: Data Definition Language
+Defines the structure of a table
+    CREATE - Used to create new table in the database
+    CREATE TABLE <TABLE_NAME>;
+
+    DROP - Delete both structure and the record present in the table
+    DROP DATABASE <DB_NAME>;
+    DROP TABLE <TABLE_NAME>;
+
+    ALTER - Alters the structure of the database like the attributes or to add a new attribute
+    ALTER TABLE <TABLE_NAME> ADD <COLUMN_NAME (COLUMN_DEFINITION)>; //This is to add a new attribute
+    ALTER TABLE <TABLE_NAME> MODIFY(COLUMN_DEFINITION); //This is to modify the attribute
+
+    TRUNCATE - Deletes all the rows from the table and frees the space from the table
+    TRUNCATE TABLE <TABLE_NAME>
+
+->DML: Data Manipulation Language
+These are used to modify the database
+They don't make the changes permanent i.e. they are not auto commited and hence can be rolled-back
+
+    INSERT - Used to insert data into the row of a table
+    INSERT INTO <TABLE_NAME> VALUES(<COL1, COL2, COL3, ...., COLN>)
+
+    UPDATE - Used to modify the contents in the table
+    UPDATE <TABLE_NAME>
+    SET [COL_NAME = VAL1, .... ]
+    WHERE <CONDITION>
+
+    DELETE - Used to remove 1 or more row from a table
+    DELETE FROM <TABLE_NAME>
+    WHERE <CONDITION>
+
+->DCL: Data Control Language 
+These are used to grant and revoke authority from a user to the database
+
+    GRANT: Used to give user access privilage to a database
+    GRANT SELECT, UPDATE ON <TABLE_NAME> TO <USERNAME1>, <USERNAME2>,...;
+
+    REVOKE: Used to take back permission from the user
+    REVOKE SELECT, UPDATE ON <TABLE_NAME> FROM <USERNAME1>, <USERNAME2>,...;
+
+->TCL: Transaction Control Language
+Can be only used with DML Commands i.e. INSERT, UPDATE and DELETE
+
+    COMMIT: Used to save all transactions to the database
+    COMMIT;
+
+    ROLLBACK: To undo the transactions that has not already been saved
+    ROLLBACK;
+
+    SAVEPOINT: Used to roll the transaction back to a certain point without rolling back the entire transaction
+    SAVEPOINT <SAVEPOINT_NAME>
+
+->DQL: Data Query Language
+Fetches the data from the database
+
+    SELECT: Selects and attribute based on the conditon in the where clause
+    SELECT <ATTRIBUTE_NAMES>
+    FROM <TABLE_NAME>
+    WHERE <CONDITION>
