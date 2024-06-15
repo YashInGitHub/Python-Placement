@@ -1,0 +1,21 @@
+Error - Some part of the code that abruptly stops the execution of the program
+Error can occur at 2 phases of program execution:
+- Compile-time
+- Run-time
+
+Types of Compile-time errors:
+-Syntax error
+-Indentation error
+-FileNotFound error
+-Name error
+-Logical error
+
+Types of Run-time errors:
+-Type error
+-Value error
+-IndexOutOfBounds error
+-Key error
+-DivisionByZero error
+
+Exception are Run-time errors:
+Syntax: 
