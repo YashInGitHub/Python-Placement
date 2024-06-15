@@ -15,7 +15,7 @@ for c in givenString:
     if c.islower():
         lowerWordCount += 1
 
-print("Number of words: ", wordCount)
+print("Number of letters: ", wordCount)
 print("Number of numbers: ", numberCount)
 print("Number of uppercase words: ", upperWordCount)
 print("Number of lowercase words: ", lowerWordCount)
